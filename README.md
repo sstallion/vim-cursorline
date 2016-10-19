@@ -1,7 +1,7 @@
 # cursorline.vim
 
-cursorline.vim is a Vim plugin that displays the cursor line only for the active
-window.
+cursorline.vim is a Vim plugin that displays the cursor line for the active
+window only.
 
 ## Installation
 
