@@ -29,3 +29,8 @@ Add the following to your `.vimrc` and execute the `:PlugInstall` command:
 
     Plug 'sstallion/vim-cursorline'
 
+## Acknowledgement
+
+Thanks to [Ben Ridder](https://github.com/brridder) for testing changes,
+providing great feedback, and stoically dealing with my penchant for amended
+commits.

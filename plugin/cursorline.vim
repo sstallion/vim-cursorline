@@ -11,12 +11,17 @@ let g:loaded_cursorline = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
+let s:cursorcolumn = &cursorcolumn
+let s:cursorline = &cursorline
+
 function! s:CursorLineHide()
-  setlocal nocursorline
+  let &l:cursorcolumn = 0
+  let &l:cursorline   = 0
 endfunction
 
 function! s:CursorLineShow()
-  setlocal cursorline
+  let &l:cursorcolumn = s:cursorcolumn
+  let &l:cursorline   = s:cursorline
 endfunction
 
 augroup CursorLine
