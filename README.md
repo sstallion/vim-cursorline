@@ -29,8 +29,16 @@ Add the following to your `.vimrc` and execute the `:PlugInstall` command:
 
     Plug 'sstallion/vim-cursorline'
 
-## Acknowledgement
+## Contributing
 
-Thanks to [Ben Ridder](https://github.com/brridder) for testing changes,
-providing great feedback, and stoically dealing with my penchant for amended
-commits.
+Pull requests are welcome! If a problem is encountered using this plugin, please
+file an issue on [GitHub][1].
+
+## License
+
+Source code in this repository is licensed under a Simplified BSD License. See
+[LICENSE] for more details.
+
+[1]: https://github.com/sstallion/vim-cursorline/issues
+
+[LICENSE]: LICENSE
