@@ -11,10 +11,15 @@ let g:loaded_cursorline = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
+let g:cursorline_ignore = get(g:, 'cursorline_ignore', [])
+
 let s:cursorcolumn = &cursorcolumn
 let s:cursorline = &cursorline
 
 function! s:CursorLineHide()
+  if index(g:cursorline_ignore, &filetype) != -1
+    return
+  endif
   let &l:cursorcolumn = 0
   let &l:cursorline   = 0
 endfunction
